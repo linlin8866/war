@@ -7,3 +7,21 @@ warp test      # 测试 Google 连通性
 warp ip        # 查看直连 IP 和 WARP IP
 warp restart   # 重启服务
 warp uninstall # 彻底卸载 WARP 及所有配置
+
+
+
+卸载一键命令
+
+
+bash <(curl -L -s https://cdn.jsdelivr.net/gh/linlin8866/wrp@main/uninstall.sh)
+
+
+
+bash <(curl -L -s https://raw.githubusercontent.com/linlin8866/wrp/main/uninstall.sh)
+
+
+# 安装
+bash <(curl -L -s https://cdn.jsdelivr.net/gh/linlin8866/wrp@main/warp.sh)
+
+# 卸载
+bash <(curl -L -s https://cdn.jsdelivr.net/gh/linlin8866/wrp@main/uninstall.sh)
